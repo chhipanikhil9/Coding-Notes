@@ -1,4 +1,7 @@
 #include<bits/stdc++.h>
+// Note: here try to go from the 0,0 to all the path otherwise you have to call the function for all the n-1,i and then take min of all the path so it is better
+// to call from 0,0.
+
 // Top-Down => memoization
 int recur(int i,int j,vector<vector<int>>& tri,vector<vector<int>>& dp){
     int n = tri.size();
